@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}aaaaaa1 {% endblock %}
+    {% block header %}
+    {% endblock %}
+{%block content %}
+<a class="nav-link active" href="{{ url_for('index') }}">Початкова сторінка</a>
+
+
+    <a class="nav-link active" href="{{ url_for('page2') }}">Портфоліо</a>
+
+
+    <a class="nav-link active" href="{{ url_for('page3') }}">Відгуки</a>
+
+    <a class="nav-link active" href="{{ url_for('skills') }}">Скіли</a>
+
+{% endblock %}
